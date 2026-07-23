@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import { Analytics } from "@vercel/analytics/react";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 import { ThemeProvider } from "./context/ThemeContext";
 import AvatarAnimationProvider from "./context/AvatarAnimationContext";
@@ -43,6 +44,7 @@ export default function RootLayout({
         suppressHydrationWarning
       >
         <Analytics />
+        <SpeedInsights />
         <ThemeProvider>
           <AvatarAnimationProvider>
             <main
