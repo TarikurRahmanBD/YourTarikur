@@ -83,6 +83,13 @@ To run and inspect the repository locally on your device:
 
 ---
 
+## 🙌 Acknowledgements & Credits
+
+- Special thanks and credit to **[RH Shihab](https://github.com/RHShihab)** for the foundational base template ([my-portfolio](https://github.com/RHShihab/my-portfolio)). 
+- Customizations, advanced feature integrations, and responsive re-architecting maintained by **[Tarikur Rahman](https://github.com/TarikurRahmanBD)**.
+
+---
+
 ## 📄 License & Attribution
 
 Designed and developed by **Tarikur Rahman**. All rights reserved.  
